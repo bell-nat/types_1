@@ -13,6 +13,7 @@ type
         manager*: Manager
         staff*: Staff
         pet*: Pet
+
     Director* = object
         name*: string
     Teacher* = object
@@ -25,6 +26,7 @@ type
         director*: Director
         teacher*: Teacher
         student*: Student
+
     ShopManager* = object
         name*: string
     ShopStaff* = object
